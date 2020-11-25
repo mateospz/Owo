@@ -32,4 +32,5 @@ def connect_to_sql(self):
 
         except NameError:
             print("Not Working")
+            print("tus muertos")
 
