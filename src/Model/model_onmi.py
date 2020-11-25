@@ -1,0 +1,2 @@
+class Onmi(object):
+    pass
