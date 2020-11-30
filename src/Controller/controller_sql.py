@@ -1,5 +1,3 @@
-import pymysql
-
 
 def check_connect(self):
     if self.state is False:
@@ -8,7 +6,7 @@ def check_connect(self):
         return 0
 
 
-def get_data_connect(self):
+def get_data_connect():
     data = [0, "localhost",
             1, "root",
             2, "",
