@@ -1,6 +1,7 @@
 import pymysql
 
 from src.Model.model_singleton import singleton
+from src.Controller import controller_sql
 
 
 @singleton
@@ -32,3 +33,18 @@ def connect_to_sql(self):
 
         except NameError:
             print("Not Working")
+
+
+def read_sql(data):
+    response = data
+    return response
+
+
+def write_sql(data):
+    response = data
+    return response
+
+
+def modify_sql(data):
+    response = data
+    return response

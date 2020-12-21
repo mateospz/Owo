@@ -6,7 +6,7 @@
       <synchronize>true</synchronize>
       <remarks>BBDD Owo</remarks>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://remoto.onmi.es:5005</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://remoto.onmi.es:5005;database=Owo</jdbc-url>
     </data-source>
   </component>
 </project>
